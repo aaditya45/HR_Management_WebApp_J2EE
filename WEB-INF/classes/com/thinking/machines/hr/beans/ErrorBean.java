@@ -1,0 +1,13 @@
+package com.thinking.machines.hr.beans;
+public class ErrorBean implements java.io.Serializable{
+    private String error;
+    public ErrorBean(){
+        error = "";
+    }
+    public String getError() {
+		return this.error;
+	}
+	public void setError(String error) {
+		this.error = error;
+	}
+}
